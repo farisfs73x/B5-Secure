@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+.main {
+    font-family: 'Poppins', sans-serif;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+.wrapper {
+    width: 1170px;
+    margin: auto;
+}
+.new-note{
+    width: 300px;
+    margin: 0 auto;
+}
+
+.new-note input,
+.new-note textarea,
+.new-note button{
+    font-family: Arial;
+    padding: 5px 10px;
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.notes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.note {
+    background-image:url("assets/img/note_bg.jpg");
+    color: black;
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+    min-height: 100px;
+
+
+}
+.note .title{
+    margin-bottom: 10px;
+    font-weight: bold;
+
+}
+.note .title a {
+    color: black;
+}
+.note .close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background-color: transparent;
+    border: none;
+}
+.note small {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    margin-top: 10px;
+    display: block;
+    text-align: right;
+    font-style: italic;
+}
+.nav-area {
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+.nav-area li {
+    display: inline-block;
+}
+.nav-area li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: poppins;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.nav-area li a:hover {
+    background: #fff;
+    color: #333;
+}
+.logo {
+    float: left;
+}
+.logo img {
+    width: 100%;
+    padding: 15px 0;
+}
+/*.nav-area {
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+.nav-area li {
+    display: inline-block;
+}
+.nav-area li a {
+    color: #fcfcfc;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: poppins;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.nav-area li a:hover {
+    background: #ababab;
+    color: #333;
+}*/
