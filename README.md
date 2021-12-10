@@ -1,2 +1,3 @@
 # b5-secure
-GROUP PROJECT OF PRINCIPLES OF COMPUTER NETWORKS AND INFORMATION SECURITY COURSE
+
+Group Project of Principles of Computer Networks and Information Security Course.
