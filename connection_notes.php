@@ -6,7 +6,7 @@ class Connection
     public function __construct()
     {
         try {
-            $this->pdo = new PDO('mysql:host=localhost;dbname=id17036172_cstb5secure_db', 'id17036172_cstb5secure', 'si<M}V?gR9=4*tCM');
+            $this->pdo = new PDO('mysql:host=yourhostname;dbname=yourdatabasename', 'yourdatabaseuser', 'yourdatabasepassword');
             $this->pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         } catch (PDOException $exception) {
             echo "ERROR: " . $exception->getMessage();
